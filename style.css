@@ -1,9 +1,189 @@
-.top-area{
-    float: left;
+body{
+    margin: 1px;
+    font-family: 'Righteous', cursive;
 }
-img{
-    
+.top-area{
+    height: 500px;
+}
+h1{
+    font-size: 55px;
 }
 .design{
+    width:  40%;
+    float: left;
+   
+}
+.img-one{
+    width: 28%;
+    position: absolute;
+    right: 65px;
+    top: 15px;
+}
+.second-area{
+    height: 500px;
+}
+#unknown{
+    margin-left: 330px;
+}
+.text {
+    position: absolute;
+    top: 210px;
+    left:79px;
+    color: dimgray;
+}
+.text-two{
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    background-image: linear-gradient(90deg,rgb(24, 187, 138),rgb(255, 0, 247));
+    padding: 15px 40px;
+    border: 2px solid yellowgreen;
+    border-radius: 15px;
+    text-decoration: none;
+}
+#first{
+    color: chartreuse;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+}
+#second{
+    color: crimson;
+    position: absolute;
+    top: 85px;
+    left: 70px;
+}
+.float-two{
+    width: 30%;
+    float: left;
+}
+.float-two p{
+    text-align
+}
+.img-two{
+    width: 80%;
+    margin: 5%;
+}
+#position{
+    position: absolute;
+    left: 980px;
+}
+.float-two p{
+    font-size: 20px;
+}
+.download-cv{
+    background-image: linear-gradient(90deg,tomato,crimson);
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 15px 25px;
+}
+.third{
+    width: 24%;
+    float: left;
+    padding: 1%;
+    margin-left: 85px;
+    box-shadow:10px 10px 40px grey;
+    border-radius: 10px;
+    color: dimgrey;
 
- } 
+}
+.third img{
+    width: 80%;
+}
+.third-area h1{
+    text-align: center;
+    color: indigo;
+}
+.third-area span{
+    color: orangered;
+}
+.third-area{
+    height: 500px;
+}
+.fourth-area{
+    height: 300px;
+}
+.four{
+    background-image: url("images/Group_33094_1.png");
+    background-repeat:no-repeat;
+    background-position-x: 365px;
+    background-position-y: 100px;
+    background-size: 900px 200px;
+    height: 100%;
+    width:100%;
+}
+.four h1{
+    color: ivory;
+    position: absolute;
+    left: 413px;
+    top: 1670px;
+}
+.chat{
+    text-decoration: none;
+    color:whitesmoke;
+    border: 2px solid;
+    padding: 10px 20px;
+    background-image: linear-gradient(270deg,orangered,tomato);
+    position: absolute;
+    top: 1735px;
+    left: 1085px;
+}
+.last{
+    width: 25%;
+    float: left;
+    margin-left: -6px;
+}
+.last img{
+    width: 60%;
+}
+.second-last{
+    position: absolute;
+    left: 720px;
+    top: 2360px;
+    height: 200px;
+}
+.second-last h3{
+    color: rgb(109, 108, 108);
+}
+.second-last h2{
+    color: olive;
+}
+.last-area{
+    height: 400px;
+    position: absolute;
+    top: 1920px;
+}
+.fifth ul{
+    background-color: black;
+    color:orangered;
+    overflow: hidden;
+}
+.fifth li{
+    padding: 30px;
+    
+}
+.fifth ul li a{
+    color: teal;
+    padding: 17px 230px;
+    text-decoration: none;
+
+}
+.fifth ul li a:hover{
+    background-color: rgb(70, 218, 11);
+
+}
+.dropdown-content{
+    display: none;
+    background-color:whitesmoke;
+    height: 300px;
+    position: absolute;
+}
+.dropbtn{
+    margin-left:-221px;
+}
+.dropdown-content a{
+    display: block
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
